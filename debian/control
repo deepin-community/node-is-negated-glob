@@ -1,0 +1,25 @@
+Source: node-is-negated-glob
+Section: web
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends:
+ debhelper (>= 9)
+ , dh-buildinfo
+ , nodejs
+ , mocha
+Standards-Version: 3.9.8
+Homepage: https://github.com/jonschlinkert/is-negated-glob
+Vcs-Git: https://anonscm.debian.org/git/pkg-javascript/node-is-negated-glob.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-is-negated-glob.git
+
+Package: node-is-negated-glob
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+Description: returns object with `negated` boolean
+ Returns an object with a `negated` boolean and the `!` stripped from
+ negation patterns. Also respects extglobs.
+ .
+ Node.js is an event-based server-side JavaScript engine.

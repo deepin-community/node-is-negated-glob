@@ -1,0 +1,12 @@
+node-is-negated-glob (1.0.0-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Tue, 29 Dec 2020 01:17:43 +0100
+
+node-is-negated-glob (1.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #847160)
+
+ -- Sruthi Chandran <srud@disroot.org>  Tue, 06 Dec 2016 12:32:54 +0530
