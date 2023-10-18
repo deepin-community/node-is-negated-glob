@@ -1,7 +1,8 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: is-negated-glob
 Upstream-Contact: https://github.com/jonschlinkert/is-negated-glob/issues
 Source: https://github.com/jonschlinkert/is-negated-glob
+ https://registry.npmjs.org/@types/is-negated-glob
 
 Files: *
 Copyright: 2016 Jon Schlinkert (https://github.com/jonschlinkert)
@@ -9,6 +10,10 @@ License: Expat
 
 Files: debian/*
 Copyright: 2016 Sruthi Chandran <srud@disroot.org>
+License: Expat
+
+Files: types-*/*
+Copyright: Microsoft Corporation
 License: Expat
 
 License: Expat
@@ -31,4 +36,3 @@ License: Expat
  ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  SOFTWARE.
-
