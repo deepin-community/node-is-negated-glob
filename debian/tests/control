@@ -1,5 +1,0 @@
-Tests: require
-Depends: node-is-negated-glob
-
-Test-Command: mocha -R spec
-Depends: @, mocha
